@@ -1,9 +1,9 @@
 <ModMetaData>
-  <name>Mesa de Cunha Teste</name>
+  <name>Capitalismo</name>
   <author>Igor</author>
-  <packageId>igor.mesadecunha.test</packageId>
+  <packageId>igor.Capitalismo</packageId>
   <description>
-    Mod teste que adiciona uma mesa de cunhagem e uma moeda de cobre ao jogo.
+    Mod teste que adiciona capitalísmo interno na colonia do jogo.
   </description>
   <supportedVersions>
     <li>1.5</li>
