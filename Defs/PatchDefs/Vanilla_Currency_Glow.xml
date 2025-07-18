@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+ <!-- Adds a glow to each item, with the color of the glow matching the item's color. -->
+  
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = "Silver"]</xpath>
+        <value>
+            <comps>
+                <li Class="CompProperties_Glower">
+                    <glowRadius>1</glowRadius>
+                    <glowColor>(128, 128, 128, 0)</glowColor>
+                </li>
+            </comps>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = "Gold"]</xpath>
+        <value>
+            <comps>
+                <li Class="CompProperties_Glower">
+                    <glowRadius>1</glowRadius>
+                    <glowColor>(255, 140, 0, 0)</glowColor>
+                </li>
+            </comps>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = "Jade"]</xpath>
+        <value>
+            <comps>
+                <li Class="CompProperties_Glower">
+                    <glowRadius>1</glowRadius>
+                    <glowColor>(0, 100, 0, 0)</glowColor>
+                </li>
+            </comps>
+        </value>
+    </Operation>
+</Patch>
